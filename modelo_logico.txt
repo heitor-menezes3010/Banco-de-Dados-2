@@ -1,0 +1,7 @@
+Manutenção(ID_manutencao, horario, local_mecanico, preco, procedimento)
+Carro_Manutenção(ID_manutencao, ID_carro, condicao)
+Carro(ID_carro, placa_carro, categoria, modelo, ano, status, quilometragem)
+Multa(ID_multa, ID_contrato, data_hora, descricao, orgao_emissor, cidade)
+Cliente(CPF, ID_cliente, nome, numero_telefone, CNH, data_nascimento)
+Contrato(ID_contrato, ID_cliente, ID_carro, data, devolucao, preco, pagamento, locadora)
+Historico(ID_historico, ID_contrato, data_criacao, descricao, condicao_inicial, condicao_final)
